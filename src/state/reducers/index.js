@@ -1,10 +1,14 @@
 // craeting combine reducer here 
 import {combineReducers} from "redux";
 import amountReducer from "./amountReducer";
+import amountReducer12 from "./amountReducer1"
 
 const reducers=combineReducers({
   amount:amountReducer,
+  amount2:amountReducer12,
 })
+
+
 
 
 export default reducers;
