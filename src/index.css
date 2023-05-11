@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(209, 209, 209);
 }
 
 code {
@@ -13,11 +14,12 @@ code {
 }
 
 .shoes{
-    max-width:277px;
+    width:244px;
+    
   
 }
 .Logo{
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
